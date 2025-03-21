@@ -3,13 +3,12 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "JavaScript",
+    "CSS",
+    "HTML",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Python", "C", "PostgreDB", "MySQL"];
 
   return (
     <section
@@ -25,8 +24,8 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              <center>Passionate developer looking to help build scalable digital
+              solutions.</center>
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -69,12 +68,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.S. in Computer Science </strong> - Northern Arizona University
+                  (2020-2024)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Data Structures, Operating Systems, Web Development, Database Systems, Linux
                 </li>
               </ul>
             </div>
@@ -84,22 +82,23 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Technological Specialist at Staples (2022 - 2024){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                  Assisted Customers with computer or IoT devices that were not working as anticipated, diagnosed and solved
+                  issues.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Tech Center at Walmart (2020-2022){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                  Assess and troubleshoot computer problems brought by customers, offer replacement products as necessary
+                  Deliver excellent customer service when reccomending products ranging from TVs, gaming consoles, monitors,
+                  cables, etc.
                   </p>
                 </div>
               </div>
