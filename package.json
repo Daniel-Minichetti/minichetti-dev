@@ -1,6 +1,6 @@
 {
   "name": "beautiful-portfolio",
-  "homepage": "https://machadop1407.github.io/pedrotech-portfolio",
+  "homepage": "https://Daniel-Minichetti.github.io/minichetti-dev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,15 +10,18 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --silent -m \"Deploy\""
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
+    "@tsparticles/react": "^3.0.0",
     "emailjs-com": "^3.2.0",
-    "particles.js": "^2.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwindcss": "^4.0.0"
+    "react-icons": "^5.5.0",
+    "react-tsparticles": "^2.12.2",
+    "tailwindcss": "^4.0.0",
+    "tsparticles": "^3.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
