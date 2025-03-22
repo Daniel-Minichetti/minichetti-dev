@@ -1,17 +1,22 @@
 import React from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
+import ParticlesBackground from "../ParticlesBackground"; // adjust the path if needed
 
 export const Home = () => {
   return (
     <>
+      <ParticlesBackground />
       <section
         id="home"
         className="min-h-screen flex items-center justify-center relative"
       >
         <RevealOnScroll>
           <div className="text-center z-10 px-4">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
-              Hi, I'm Daniel Minichetti ✌️
+            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+                Hi, I'm Daniel Minichetti
+              </span>{" "}
+              <span className="text-white">✌️</span>
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
               I’m a recent Graduate in Computer Science looking to get into

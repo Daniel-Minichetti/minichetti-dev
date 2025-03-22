@@ -23,9 +23,9 @@ export const About = () => {
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
-              <center>Passionate developer looking to help build scalable digital
-              solutions.</center>
+            <p className="text-gray-300 mb-6 text-center">
+              Passionate developer looking to help build scalable digital
+              solutions.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
