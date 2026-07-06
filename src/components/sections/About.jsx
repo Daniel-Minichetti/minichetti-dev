@@ -85,8 +85,13 @@ export const About = () => {
                     CX AI Solution Engineer - NiCE (2025 - present){" "}
                   </h4>
                   <p>
-                  Assisted Customers with computer or IoT devices that were not working as anticipated, diagnosed and solved
-                  issues.
+                  * Support AI solution engineering efforts across NICE CXone, including CXone Copilot, Expert, Cognigy, routing, agent assist, and self-service use cases.
+                  * Assist with customer discovery by translating business requirements into technical solution recommendations for contact center and CX AI workflows.
+                  * Build and troubleshoot demo scenarios involving virtual agents, knowledge management, call routing, IVR flows, CRM integrations, and agent handoff experiences.
+                  * Research and respond to technical requirements for RFPs and customer evaluations, including AI capabilities, reporting, SSO, workforce engagement, integrations, and automation.
+                  * Collaborate with internal teams to validate solution fit, troubleshoot configuration issues, and explain technical concepts to both technical and non-technical stakeholders.
+                  * Develop customer-facing solution narratives that show how AI, automation, and CXone tools can improve agent efficiency and customer experience.
+
                   </p>
                 </div>
 
