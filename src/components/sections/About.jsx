@@ -86,36 +86,67 @@ export const About = () => {
               </ul>
             </div>
 
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">Work Experience</h3>
+<div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+  <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
 
-              <div className="space-y-6 text-gray-300">
-                <div>
-                  <h4 className="font-semibold text-white mb-2">
-                    CX AI Solution Engineer - NICE (2025 - Present)
-                  </h4>
-                  <ul className="list-disc list-inside space-y-2">
-                    {niceExperience.map((item, key) => (
-                      <li key={key}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
+  <div className="space-y-6 text-gray-300">
+    <div>
+      <h4 className="font-semibold text-white mb-2">
+        CX AI Solution Engineer - NICE (2025 - Present)
+      </h4>
 
-                <div>
-                  <h4 className="font-semibold text-white mb-2">
-                    Software Engineer - Diverse Makers (2024 - 2025)
-                  </h4>
-                  <ul className="list-disc list-inside space-y-2">
-                    {diverseMakersExperience.map((item, key) => (
-                      <li key={key}>{item}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+      <ul className="list-disc pl-5 space-y-2">
+        <li>
+          Support AI solution engineering efforts across NICE CXone, including
+          CXone Copilot, Expert, Cognigy, routing, agent assist, and self-service
+          use cases.
+        </li>
+        <li>
+          Translate customer requirements into technical solution recommendations
+          for contact center, automation, and CX AI workflows.
+        </li>
+        <li>
+          Build and troubleshoot demo scenarios involving virtual agents,
+          knowledge management, IVR flows, CRM integrations, and agent handoff
+          experiences.
+        </li>
+        <li>
+          Research and respond to technical requirements for RFPs and customer
+          evaluations, including AI capabilities, reporting, SSO, workforce
+          engagement, integrations, and automation.
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h4 className="font-semibold text-white mb-2">
+        Software Engineer - Diverse Makers (2024 - 2025)
+      </h4>
+
+      <ul className="list-disc pl-5 space-y-2">
+        <li>
+          Led development efforts for a mobile application designed to improve
+          accessibility between makerspaces and individuals with disabilities.
+        </li>
+        <li>
+          Collaborated with teammates to gather requirements, define project
+          scope, and deliver features aligned with user needs.
+        </li>
+        <li>
+          Built and refined application features using React, JavaScript,
+          Firebase, and REST API concepts.
+        </li>
+        <li>
+          Tested, debugged, and documented application functionality to improve
+          usability, reliability, and maintainability.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
         </div>
-      </RevealOnScroll>
+</RevealOnScroll>
     </section>
   );
 };
