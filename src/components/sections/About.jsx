@@ -24,8 +24,8 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6 text-center">
-              Passionate developer looking to help build scalable digital
-              solutions.
+              Hi I'm Daniel a current Solution Engineer at NiCE, I developed this personal website to share my progress into documenting my Machine Learning and AI journey. 
+              I have a strong interest in research & system design around ML systems, and how AI can transform legacy systems into modern effective solutions.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -82,7 +82,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Technological Specialist at Staples (2022 - 2024){" "}
+                    CX AI Solution Engineer - NiCE (2025 - present){" "}
                   </h4>
                   <p>
                   Assisted Customers with computer or IoT devices that were not working as anticipated, diagnosed and solved
@@ -93,7 +93,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Tech Center at Walmart (2020-2022){" "}
+                    Software Engineer - Diverse Makers (2024-2025) {""}
                   </h4>
                   <p>
                   Assess and troubleshoot computer problems brought by customers, offer replacement products as necessary
